@@ -1,0 +1,8 @@
+.f-title {
+  display: inline-block;
+  width: 70px;
+  padding: 3px 40px 3px 3px;
+  color: #fff;
+  background: #20232a;
+  border-left: 6px solid #737373;
+}

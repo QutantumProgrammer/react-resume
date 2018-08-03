@@ -1,0 +1,44 @@
+.header {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 120px;
+  background: #20232a;
+  color: #ffffff;
+}
+
+.header .avatar {
+  position: relative;
+  width: 80px;
+}
+
+.header .avatar .full-name {
+  position: absolute;
+  bottom: -5px;
+  right: -7px;
+  padding: 7px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  background: #20232a;
+  border-radius: 10px;
+}
+
+.header .avatar img {
+  width: 100%;
+}
+
+.header .icon {
+  box-sizing: border-box;
+  width: 40px;
+  text-align: center;
+}
+
+.row-item {
+  font-size: 12px;
+  padding: 0 10px;
+}
+	

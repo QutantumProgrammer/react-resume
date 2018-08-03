@@ -33,6 +33,12 @@ class MySkill extends Component {
           <img src={jqueryLogo} className="logo"/>
           <img src={boostrapLogo} className="logo"/>
         </div>
+        <div className="pl-20 desc">
+          掌握HTML ECMAScript CSS及其扩展（H5, ES6, CSS3）
+        </div>
+        <div className="pl-20 desc">
+          掌握Angularjs, vue, react(此界面)等前端框架
+        </div>
       </div>
     );
   }

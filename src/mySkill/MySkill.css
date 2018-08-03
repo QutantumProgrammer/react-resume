@@ -1,4 +1,9 @@
 .logo {
-	margin: 5px;
-	width: 30px;
+  margin: 5px;
+  width: 30px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #737373;
 }

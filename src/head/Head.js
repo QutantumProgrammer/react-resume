@@ -17,25 +17,25 @@ class Head extends Component {
       		<div className="full-name">{this.props.name}</div>
       		</div>
       	  </div>
-      	  <div className="row-item" style={{paddingLeft: '10%'}}>
-  	  	    <div>
+      	  <div className="row-item" style={{paddingLeft: '7%'}}>
+  	  	    <div className="nowrap">
   	  	      <FontAwesome name="id-card" className="icon" />
   	  	      <span>28岁</span>
 			         <FontAwesome name="mars" className="pl-10"/>			  
       	  	</div>
-      	  	<div>
+      	  	<div className="nowrap">
       	  	  <FontAwesome name="graduation-cap" className="icon"/>
 		          <span>沈阳航空航天大学（CET4）</span>
       	  	</div>
-      	  	<div>
+      	  	<div className="nowrap">
       	  	  <FontAwesome name="map-pin" className="icon"/>
 		          <span>现居住地深圳（辽宁沈阳人）</span>
       	  	</div>
-      	  	<div>
+      	  	<div className="nowrap">
       	  	  <FontAwesome name="envelope" className="icon"/>
 	            <span>zcfxs@hotmail.com</span>
       	  	</div>
-      	  	<div>
+      	  	<div className="nowrap">
       	  	  <FontAwesome name="phone" className="icon"/> 
       	  	  <span>13249051475</span>
       	  	</div>

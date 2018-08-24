@@ -5,6 +5,7 @@ import './App.css';
 import '../common/css/Padding.css';
 import '../common/css/Margin.css';
 import '../common/css/Box.css';
+import '../common/css/Font.css';
 
 import '../third/font-awesome/css/font-awesome.min.css';
 

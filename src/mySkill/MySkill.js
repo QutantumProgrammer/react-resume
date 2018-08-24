@@ -34,10 +34,22 @@ class MySkill extends Component {
           <img src={boostrapLogo} className="logo"/>
         </div>
         <div className="pl-20 desc">
-          掌握HTML ECMAScript CSS及其扩展（H5, ES6, CSS3）
+          •掌握HTML，ECMAScript，CSS及其扩展（H5，ES6，CSS3）
         </div>
         <div className="pl-20 desc">
-          掌握Angularjs, vue, react(此界面)等前端框架
+          •掌握Angularjs，VUE，React(此界面)等前端框架
+        </div>
+        <div className="pl-20 desc">
+          •掌握jQuery，Bootstrap，threejs(webGL)等js库
+        </div>
+        <div className="pl-20 desc">
+          •掌握SeaJs，requireJs模块化工具，并构建对应的开发环境
+        </div>
+        <div className="pl-20 desc">
+          •掌握webpack，gulp，grunt，bower等前端自动化构建工具，以及nodejs平台本身
+        </div>
+        <div className="pl-20 desc">
+          •有后端开发经验java，sql。常用服务器的配置与部署tomcat，nginx
         </div>
       </div>
     );

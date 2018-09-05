@@ -1,7 +1,21 @@
 .inline-block {
-	display: inline-block;
+    display: inline-block;
 }
 
 .nowrap {
-	white-space: nowrap;
+    white-space: nowrap;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.border-top {
+    border-top: solid 1px #737373;
 }

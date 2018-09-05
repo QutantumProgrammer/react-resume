@@ -1,0 +1,14 @@
+.bg-ex-title {
+    position: relative;
+    padding: 5px;
+    background: rgba(75, 121, 75, 1);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.bg-ex-title-other {
+    padding: 5px;
+    background: rgba(181, 196, 199, 1);
+    color: #ffffff;
+    border-radius: 4px;
+}

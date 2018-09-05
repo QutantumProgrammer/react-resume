@@ -34,22 +34,22 @@ class MySkill extends Component {
           <img src={boostrapLogo} className="logo"/>
         </div>
         <div className="pl-20 desc">
-          •掌握HTML，ECMAScript，CSS及其扩展（H5，ES6，CSS3）
+          <span className="text-black">•HTML，JavaScript，CSS（H5，ES6，CSS3）</span>
         </div>
-        <div className="pl-20 desc">
-          •掌握Angularjs，VUE，React(此界面)等前端框架
+        <div className="pl-20 mt-10 desc">
+          <span className="text-black">•Angularjs，VUE，React(此界面)</span>
         </div>
-        <div className="pl-20 desc">
-          •掌握jQuery，Bootstrap，threejs(webGL)等js库
+        <div className="pl-20 mt-10 desc">
+          <span className="text-black">•jQuery，Bootstrap，threejs(webGL)</span>等js库
         </div>
-        <div className="pl-20 desc">
-          •掌握SeaJs，requireJs模块化工具，并构建对应的开发环境
+        <div className="pl-20 mt-10 desc">
+          <span className="text-black">•SeaJs，requireJs</span>模块化工具
         </div>
-        <div className="pl-20 desc">
-          •掌握webpack，gulp，grunt，bower等前端自动化构建工具，以及nodejs平台本身
+        <div className="pl-20 mt-10 desc">
+          <span className="text-black">•webpack，gulp，grunt，bower</span>等前端自动化构建工具，以及<span className="text-black">nodeJs</span>平台本身
         </div>
-        <div className="pl-20 desc">
-          •有后端开发经验java，sql。常用服务器的配置与部署tomcat，nginx
+        <div className="pl-20 mt-10 desc">
+          •后端开发经验<span className="text-black">java，sql</span>。常用服务器的配置与部署<span className="text-black">tomcat，nginx</span>
         </div>
       </div>
     );

@@ -16,6 +16,31 @@
   width: 80px;
 }
 
+.header .avatar .source {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.header .avatar .point-to-source {
+  position: absolute;
+  top: 19px;
+  right: 16px;
+  cursor: pointer;
+  color: #eeeeee;
+  font-size: 18px;
+  transform: rotateZ(37deg);
+}
+
+.header .avatar .source:hover {
+  color: aquamarine;
+}
+
 .header .avatar .full-name {
   position: absolute;
   bottom: -5px;

@@ -38,6 +38,10 @@ class Head extends Component {
       	<div className="row-item">
       	  <div className="avatar">
             <canvas id="waves" width="100" height="100" className="waves"></canvas>
+            <FontAwesome name="long-arrow-up" className="point-to-source"/>
+            <a href="https://gitee.com/qutantumspace/react-resume/blob/master/src/component/water-waves/index.js"
+               target="_blank"
+               className="source">source code</a>
       			<div className="full-name">{this.props.name}</div>
       		</div>
 				</div>

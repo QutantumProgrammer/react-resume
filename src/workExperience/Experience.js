@@ -11,11 +11,39 @@ class Experience extends Component {
     return (
       <div>
         <FieldTitle title="工作经验" className="ml-10 mt-20"/>
-        <div className="ml-20 desc mt-20 border-top pr-20">
+
+        <div className="ml-20 desc mt-20 pr-20">
           <div className="flex-row mt-10 bg-ex-title">
             <div className="text-nowrap">工作时间：</div>
             <div>
-              2017.5 - 至今 深圳市速加科技有限公司 web前端工程师
+              2017.10 - 至今 平安重金所 web前端工程师
+            </div>
+          </div>
+        </div>
+        <div className="pl-20 desc mt-10 pr-20">
+          <div className="flex-row">
+            <div className="text-nowrap">项目描述：</div>
+            <div className="text-black">
+              政府PPP管理项目，大屏数据可视化项目
+            </div>
+          </div>
+        </div>
+        <div className="pl-20 desc mt-10 pr-20">
+          <div className="flex-row">
+            <div className="text-nowrap">工作描述：</div>
+            <div className="text-black">
+              1. 数据可视化开发工作，组件开发（可配置路由组件，canvas图形组件），性能优化等工作。<br/>
+              2. 开发基于React的PPP管理系统。<br/>
+              3. 搭建基于Karma mocha chi sinon 的前端单元测框架，并完成相应的覆盖率。<br/>
+            </div>
+          </div>
+        </div>
+
+        <div className="ml-20 desc mt-20 pr-20">
+          <div className="flex-row mt-10 bg-ex-title">
+            <div className="text-nowrap">工作时间：</div>
+            <div>
+              2017.5 - 2018.10 深圳市速加科技有限公司 web前端工程师
             </div>
           </div>
         </div>
@@ -39,7 +67,7 @@ class Experience extends Component {
           </div>
         </div>
 
-        <div className="ml-20 desc mt-20 border-top pr-20">
+        <div className="ml-20 desc mt-20 pr-20">
           <div className="flex-row mt-10 bg-ex-title">
             <div className="text-nowrap">工作时间：</div>
             <div>
@@ -68,7 +96,7 @@ class Experience extends Component {
           </div>
         </div>
 
-        <div className="ml-20 desc mt-20 border-top pr-20">
+        <div className="ml-20 desc mt-20 pr-20">
           <div className="flex-row mt-10 bg-ex-title">
             <div className="text-nowrap">工作时间：</div>
             <div>
@@ -91,23 +119,6 @@ class Experience extends Component {
               1. 在项目中参与程序整体的结构设计，数据库设计，业务界面开发，编写可复用的Angularjs插件<br/>
               2. 完成单元模块开发，测试，以及修改工作<br/>
               3. 指导新人工作，解决在项目中遇到的难题，优化项目代码结构<br/>
-            </div>
-          </div>
-        </div>
-
-        <div className="ml-20 desc mt-20 border-top pr-20">
-          <div className="flex-row mt-10 bg-ex-title-other">
-            <div className="text-nowrap">工作时间：</div>
-            <div>
-              2014.1 - 2015.2  沈阳志荣嘉华技有限公司	 销售&技术支持（非开发）
-            </div>
-          </div>
-        </div>
-        <div className="pl-20 desc mt-10 pr-20">
-          <div className="flex-row">
-            <div className="text-nowrap">工作描述：</div>
-            <div>
-              公司为索尼经销商，在职期间主要负责索尼产品的销售及技术支持工作，以及客户交流活动的组织策划
             </div>
           </div>
         </div>

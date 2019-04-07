@@ -34,19 +34,24 @@ class MySkill extends Component {
           <img src={boostrapLogo} className="logo"/>
         </div>
         <div className="pl-20 desc">
-          <span className="text-black">•HTML，JavaScript，CSS（H5，ES6，CSS3）</span>
+          <span className="text-black">•善于编写易于维护，扩展性强，性能良好的代码</span>
         </div>
         <div className="pl-20 mt-10 desc">
-          <span className="text-black">•Angularjs，VUE，React(此界面)</span>
+          <span className="text-black">•HTML，JS，CSS（H5，ES6，CSS3）</span>, 拥有面向对象，组件化开发思想。
         </div>
         <div className="pl-20 mt-10 desc">
-          <span className="text-black">•jQuery，Bootstrap，threejs(webGL)</span>等js库
+          <span className="text-black">•了解浏览器的eventLoop, 原型链，作用域链，GC，性能优化。</span>
         </div>
         <div className="pl-20 mt-10 desc">
-          <span className="text-black">•SeaJs，requireJs</span>模块化工具
+          <span className="text-black">•jAngularjs，VUE，React</span>
+          等前端框架，
+          <span className="text-black">jQuery，Bootstrap，threejs，templateJs</span>
+          等js库，
+          <span className="text-black">SeaJs，requireJs</span>
+          模块化工具，并可构建对应的开发环境
         </div>
         <div className="pl-20 mt-10 desc">
-          <span className="text-black">•webpack，gulp，grunt，bower</span>等前端自动化构建工具，以及<span className="text-black">nodeJs</span>平台本身
+          <span className="text-black">•webpack，gulp，grunt，bower</span>等前端自动化构建工具
         </div>
         <div className="pl-20 mt-10 desc">
           •后端开发经验<span className="text-black">java，sql</span>。常用服务器的配置与部署<span className="text-black">tomcat，nginx</span>

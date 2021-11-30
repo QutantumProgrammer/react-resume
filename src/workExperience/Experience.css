@@ -1,8 +1,8 @@
 .bg-ex-title {
     position: relative;
-    padding: 5px;
-    background: rgba(164, 134, 88, 1);
-    border-radius: 4px;
+    padding: 5px 20px;
+    background: rgb(95, 96, 97);
+    border-radius: 3px;
     color: #ffffff;
 }
 

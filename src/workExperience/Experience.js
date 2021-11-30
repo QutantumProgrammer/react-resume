@@ -20,7 +20,7 @@ class Experience extends Component {
             </div>
           </div>
         </div>
-        <div className="pl-20 desc mt-10 pr-20">
+        <div className="pl-40 desc mt-10 pr-20">
           <div className="flex-row">
             <div className="text-nowrap">项目描述：</div>
             <div className="text-black">
@@ -28,7 +28,7 @@ class Experience extends Component {
             </div>
           </div>
         </div>
-        <div className="pl-20 desc mt-10 pr-20">
+        <div className="pl-40 desc mt-10 pr-20">
           <div className="flex-row">
             <div className="text-nowrap">工作描述：</div>
             <div className="text-black">
@@ -47,7 +47,7 @@ class Experience extends Component {
             </div>
           </div>
         </div>
-        <div className="pl-20 desc mt-10 pr-20">
+        <div className="pl-40 desc mt-10 pr-20">
           <div className="flex-row">
             <div className="text-nowrap">项目描述：</div>
             <div className="text-black">
@@ -55,7 +55,7 @@ class Experience extends Component {
             </div>
           </div>
         </div>
-        <div className="pl-20 desc mt-10 pr-20">
+        <div className="pl-40 desc mt-10 pr-20">
           <div className="flex-row">
             <div className="text-nowrap">工作描述：</div>
             <div className="text-black">
@@ -67,61 +67,61 @@ class Experience extends Component {
           </div>
         </div>
 
-        <div className="ml-20 desc mt-20 pr-20">
-          <div className="flex-row mt-10 bg-ex-title">
-            <div className="text-nowrap">工作时间：</div>
-            <div>
-              2016.6 - 2017.5 深圳软通动力科技有限公司 	web前端工程师
-            </div>
-          </div>
-        </div>
-        <div className="pl-20 desc mt-10 pr-20">
-          <div className="flex-row">
-            <div className="text-nowrap">项目描述：</div>
-            <div className="text-black">
-              华为能源管理系统（电力输出输入，硬件设备控制）
-            </div>
-          </div>
-        </div>
-        <div className="pl-20 desc mt-10 pr-20">
-          <div className="flex-row">
-            <div className="text-nowrap">工作描述：</div>
-            <div className="text-black">
-              1. 切换华为能源系统所使用的前端框架（老系统使用类似Servlet，jsp前后端紧耦合架构，
-              切换至基于restful风格接口以JSON字符串为基准前后端分离的架构，前端所用为华为内部框，
-              架基于Angularjs封装）<br/>
-              2. 切换代码架构，性能优化, 优化代码结构提升代码可读性，可扩展性，编写可复用组件<br/>
-              3. 新员工培训（Angularjs以及前端mvc结构的开发思想）<br/>
-            </div>
-          </div>
-        </div>
+        {/*<div className="ml-20 desc mt-20 pr-20">*/}
+          {/*<div className="flex-row mt-10 bg-ex-title">*/}
+            {/*<div className="text-nowrap">工作时间：</div>*/}
+            {/*<div>*/}
+              {/*2016.6 - 2017.5 深圳软通动力科技有限公司 	web前端工程师*/}
+            {/*</div>*/}
+          {/*</div>*/}
+        {/*</div>*/}
+        {/*<div className="pl-20 desc mt-10 pr-20">*/}
+          {/*<div className="flex-row">*/}
+            {/*<div className="text-nowrap">项目描述：</div>*/}
+            {/*<div className="text-black">*/}
+              {/*华为能源管理系统（电力输出输入，硬件设备控制）*/}
+            {/*</div>*/}
+          {/*</div>*/}
+        {/*</div>*/}
+        {/*<div className="pl-20 desc mt-10 pr-20">*/}
+          {/*<div className="flex-row">*/}
+            {/*<div className="text-nowrap">工作描述：</div>*/}
+            {/*<div className="text-black">*/}
+              {/*1. 切换华为能源系统所使用的前端框架（老系统使用类似Servlet，jsp前后端紧耦合架构，*/}
+              {/*切换至基于restful风格接口以JSON字符串为基准前后端分离的架构，前端所用为华为内部框，*/}
+              {/*架基于Angularjs封装）<br/>*/}
+              {/*2. 切换代码架构，性能优化, 优化代码结构提升代码可读性，可扩展性，编写可复用组件<br/>*/}
+              {/*3. 新员工培训（Angularjs以及前端mvc结构的开发思想）<br/>*/}
+            {/*</div>*/}
+          {/*</div>*/}
+        {/*</div>*/}
 
-        <div className="ml-20 desc mt-20 pr-20">
-          <div className="flex-row mt-10 bg-ex-title">
-            <div className="text-nowrap">工作时间：</div>
-            <div>
-              2015.6 - 2016.6 沈阳斯不瑞英科技有限公司	web开发工程师
-            </div>
-          </div>
-        </div>
-        <div className="pl-20 desc mt-10 pr-20">
-          <div className="flex-row">
-            <div className="text-nowrap">项目描述：</div>
-            <div className="text-black">
-              北京我爱我家房管系统（房源监控，统计，租房流程控制）
-            </div>
-          </div>
-        </div>
-        <div className="pl-20 desc mt-10 pr-20">
-          <div className="flex-row">
-            <div className="text-nowrap">工作描述：</div>
-            <div className="text-black">
-              1. 在项目中参与程序整体的结构设计，数据库设计，业务界面开发，编写可复用的Angularjs插件<br/>
-              2. 完成单元模块开发，测试，以及修改工作<br/>
-              3. 指导新人工作，解决在项目中遇到的难题，优化项目代码结构<br/>
-            </div>
-          </div>
-        </div>
+        {/*<div className="ml-20 desc mt-20 pr-20">*/}
+          {/*<div className="flex-row mt-10 bg-ex-title">*/}
+            {/*<div className="text-nowrap">工作时间：</div>*/}
+            {/*<div>*/}
+              {/*2015.6 - 2016.6 沈阳斯不瑞英科技有限公司	web开发工程师*/}
+            {/*</div>*/}
+          {/*</div>*/}
+        {/*</div>*/}
+        {/*<div className="pl-20 desc mt-10 pr-20">*/}
+          {/*<div className="flex-row">*/}
+            {/*<div className="text-nowrap">项目描述：</div>*/}
+            {/*<div className="text-black">*/}
+              {/*北京我爱我家房管系统（房源监控，统计，租房流程控制）*/}
+            {/*</div>*/}
+          {/*</div>*/}
+        {/*</div>*/}
+        {/*<div className="pl-20 desc mt-10 pr-20">*/}
+          {/*<div className="flex-row">*/}
+            {/*<div className="text-nowrap">工作描述：</div>*/}
+            {/*<div className="text-black">*/}
+              {/*1. 在项目中参与程序整体的结构设计，数据库设计，业务界面开发，编写可复用的Angularjs插件<br/>*/}
+              {/*2. 完成单元模块开发，测试，以及修改工作<br/>*/}
+              {/*3. 指导新人工作，解决在项目中遇到的难题，优化项目代码结构<br/>*/}
+            {/*</div>*/}
+          {/*</div>*/}
+        {/*</div>*/}
 
       </div>
     );

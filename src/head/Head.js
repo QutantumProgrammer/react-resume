@@ -39,7 +39,7 @@ class Head extends Component {
       	  <div className="avatar">
             <canvas id="waves" width="100" height="100" className="waves"></canvas>
             <FontAwesome name="long-arrow-up" className="point-to-source"/>
-            <a href="https://gitee.com/qutantumspace/react-resume/blob/master/src/component/water-waves/index.js"
+            <a href="https://github.com/QutantumProgrammer/react-resume/blob/master/src/component/water-waves/index.js"
                target="_blank"
                className="source">source code</a>
       			<div className="full-name">{this.props.name}</div>
@@ -48,16 +48,16 @@ class Head extends Component {
 				<div className="row-item" style={{paddingLeft: '7%'}}>
 					<div className="nowrap">
 						<FontAwesome name="id-card" className="icon" />
-						<span>28岁</span>
+						<span>31岁</span>
 						 <FontAwesome name="mars" className="pl-10"/>
 					</div>
 					<div className="nowrap">
 						<FontAwesome name="graduation-cap" className="icon"/>
-						<span>沈阳航空航天大学（CET4）</span>
+						<span>沈阳航空航天大学</span>
 					</div>
 					<div className="nowrap">
 						<FontAwesome name="map-pin" className="icon"/>
-						<span>现居住地深圳（辽宁沈阳人）</span>
+						<span>现居住地深圳</span>
 					</div>
 					<div className="nowrap">
 						<FontAwesome name="envelope" className="icon"/>

@@ -49,12 +49,16 @@ class Head extends Component {
 					<div className="nowrap">
 						<FontAwesome name="id-card" className="icon" />
 						<span>31岁</span>
-						 <FontAwesome name="mars" className="pl-10"/>
+            <FontAwesome name="mars" className="pl-10"/>
 					</div>
 					<div className="nowrap">
 						<FontAwesome name="graduation-cap" className="icon"/>
 						<span>沈阳航空航天大学</span>
 					</div>
+          <div className="nowrap">
+            <FontAwesome name="terminal" className="icon"/>
+            <span>6年web前端开发经验</span>
+          </div>
 					<div className="nowrap">
 						<FontAwesome name="map-pin" className="icon"/>
 						<span>现居住地深圳</span>

@@ -1,14 +1,15 @@
 .header {
   position: relative;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
-  height: 120px;
+  height: 140px;
   background: #20232a;
   color: #ffffff;
+  border-radius: 0 0 3px 3px;
 }
 
 .header .avatar {
@@ -64,6 +65,6 @@
 }
 
 .row-item {
-  font-size: 12px;
+  font-size: 13px;
   padding: 0 10px;
 }

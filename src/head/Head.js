@@ -2,10 +2,35 @@ import React, { Component } from 'react';
 import './Head.css';
 import FontAwesome from 'react-fontawesome';
 import WaterWaves from '../component/water-waves/index';
+import reader from '../reader';
 
 class Head extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      inputValue: '',
+      loading: false,
+    };
+  }
+  
+  onInputChange = (e) => {
+    this.setState({
+      inputValue: e.target.value,
+    });
+  }
+
+  onPlay = async () => {
+    const { inputValue, loading } = this.state;
+    if (loading || !inputValue) return;
+    this.setState({
+      loading: true,
+    });
+    
+    const { after } = reader.read(inputValue);
+    await after;
+    this.setState({
+      loading: false,
+    });
   }
 
   componentDidMount () {
@@ -33,6 +58,8 @@ class Head extends Component {
 	}
 
   render() {
+    const { inputValue, loading } = this.state;
+
     return (
       <div className="header">
       	<div className="row-item">
@@ -72,6 +99,12 @@ class Head extends Component {
 						<span>13249051475</span>
 					</div>
 				</div>
+
+        <div className="row-item reader">
+          <div style={{ margin: '0 0 10px 0'}}>文字转语音</div>
+          <input onChange={this.onInputChange} value={inputValue} />
+          <FontAwesome name="play" className={`icon ${loading ? 'icon-disable' : ''}`} style={{ cursor: 'pointer' }} onClick={this.onPlay} />
+        </div>
 		 	</div>
     );
   }

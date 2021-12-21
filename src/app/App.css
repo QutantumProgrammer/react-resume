@@ -7,3 +7,16 @@ body {
     max-width: 999px;
     margin: 0 auto 20px auto;
 }
+
+.icon-disable {
+    opacity: .6;
+    cursor: not-allowed!important;
+}
+
+.reader {
+   padding-left: 40px; 
+}
+
+.reader input{
+    width: 100px;
+}

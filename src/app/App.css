@@ -12,11 +12,3 @@ body {
     opacity: .6;
     cursor: not-allowed!important;
 }
-
-.reader {
-   padding-left: 40px; 
-}
-
-.reader input{
-    width: 100px;
-}

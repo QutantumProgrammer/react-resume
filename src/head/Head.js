@@ -61,51 +61,53 @@ class Head extends Component {
     const { inputValue, loading } = this.state;
 
     return (
-      <div className="header">
-      	<div className="row-item">
-      	  <div className="avatar">
-            <canvas id="waves" width="100" height="100" className="waves"></canvas>
-            <FontAwesome name="long-arrow-up" className="point-to-source"/>
-            <a href="https://github.com/QutantumProgrammer/react-resume/blob/master/src/component/water-waves/index.js"
-               target="_blank"
-               className="source">source code</a>
-      			<div className="full-name">{this.props.name}</div>
-      		</div>
-				</div>
-				<div className="row-item" style={{paddingLeft: '7%'}}>
-					<div className="nowrap">
-						<FontAwesome name="id-card" className="icon" />
-						<span>31岁</span>
-            <FontAwesome name="mars" className="pl-10"/>
-					</div>
-					<div className="nowrap">
-						<FontAwesome name="graduation-cap" className="icon"/>
-						<span>沈阳航空航天大学</span>
-					</div>
-          <div className="nowrap">
-            <FontAwesome name="terminal" className="icon"/>
-            <span>6年web前端开发经验</span>
+      <div className="header-wrapper">
+        <div className="header">
+          <div className="row-item">
+            <div className="avatar">
+              <canvas id="waves" width="100" height="100" className="waves"></canvas>
+              <FontAwesome name="long-arrow-up" className="point-to-source"/>
+              <a href="https://github.com/QutantumProgrammer/react-resume/blob/master/src/component/water-waves/index.js"
+                 target="_blank"
+                 className="source">source code</a>
+              <div className="full-name">{this.props.name}</div>
+            </div>
           </div>
-					<div className="nowrap">
-						<FontAwesome name="map-pin" className="icon"/>
-						<span>现居住地深圳</span>
-					</div>
-					<div className="nowrap">
-						<FontAwesome name="envelope" className="icon"/>
-						<span>zcfxs@hotmail.com</span>
-					</div>
-					<div className="nowrap">
-						<FontAwesome name="phone" className="icon"/>
-						<span>13249051475</span>
-					</div>
-				</div>
-
-        <div className="row-item reader">
-          <div style={{ margin: '0 0 10px 0'}}>文字转语音</div>
-          <input onChange={this.onInputChange} value={inputValue} />
-          <FontAwesome name="play" className={`icon ${loading ? 'icon-disable' : ''}`} style={{ cursor: 'pointer' }} onClick={this.onPlay} />
+          <div className="row-item" style={{ paddingLeft: '7%', marginRight: '40px' }}>
+            <div className="nowrap">
+              <FontAwesome name="id-card" className="icon" />
+              <span>31岁</span>
+              <FontAwesome name="mars" className="pl-10"/>
+            </div>
+            <div className="nowrap">
+              <FontAwesome name="graduation-cap" className="icon"/>
+              <span>沈阳航空航天大学</span>
+            </div>
+            <div className="nowrap">
+              <FontAwesome name="terminal" className="icon"/>
+              <span>6年web前端开发经验</span>
+            </div>
+            <div className="nowrap">
+              <FontAwesome name="map-pin" className="icon"/>
+              <span>现居住地深圳</span>
+            </div>
+            <div className="nowrap">
+              <FontAwesome name="envelope" className="icon"/>
+              <span>zcfxs@hotmail.com</span>
+            </div>
+            <div className="nowrap">
+              <FontAwesome name="phone" className="icon"/>
+              <span>13249051475</span>
+            </div>
+          </div>
         </div>
-		 	</div>
+        <div className="row-item reader">
+          <FontAwesome name="volume-up"  style={{ margin: '0 2px 0 0' }} />
+          <span style={{ margin: '0 10px 10px 0' }} >文字转语音</span>
+          <input onChange={this.onInputChange} value={inputValue} style={{ display: 'inline-block' }} />
+          <FontAwesome name="play" className={`icon ${loading ? 'icon-disable' : ''}`} style={{ cursor: 'pointer', display: 'inline-block' }} onClick={this.onPlay} />
+        </div>
+      </div>
     );
   }
 }

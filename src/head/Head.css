@@ -1,3 +1,9 @@
+.header-wrapper {
+  height: 180px;
+  background: #20232a;
+  color: #ffffff;
+}
+
 .header {
   position: relative;
   box-sizing: border-box;
@@ -7,7 +13,6 @@
   justify-content: flex-start;
   align-items: center;
   height: 140px;
-  background: #20232a;
   color: #ffffff;
   border-radius: 0 0 3px 3px;
 }
@@ -67,4 +72,15 @@
 .row-item {
   font-size: 13px;
   padding: 0 10px;
+}
+
+.reader {
+  margin-top: 5px;
+  padding: 2px 2px 2px 30px;
+}
+
+.reader input{
+  margin: 0px 14px 0 0;
+  width: 140px;
+  font-size: 12px;
 }

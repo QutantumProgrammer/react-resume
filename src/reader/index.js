@@ -10,9 +10,16 @@ import axios from 'axios';
 
 const READER_DOM_ID = '_text-reader';
 const OPEN_API_URL = 'https://tts.baidu.com/text2audio';
-const LAN = 'zh';
+// const OPEN_API_URL = 'https://tts.baidu.com/text2audio?cuid=baike&lan=ZH&ctp=1&pdt=301&vol=9&rate=32&per=4&tex=%E8%AF%95%E8%AF%95%E8%BF%99%E4%B8%AA%E3%80%82';
+const LAN = 'ZH';
 const IE = 'UTF-8';
 const SPEED = 5; // 朗读速度
+const PER = 5; // 声色 5 女声
+const PDT = 301; // ??
+const CTP = 1; // ??
+const CUID= 'baike'; // ??
+
+// rate=32?  &vol=9
 
 export default {
   read,
@@ -81,7 +88,11 @@ function getAudioFromOpenApi (text) {
       lan: LAN,
       ie: IE,
       spd: SPEED,
-      text,
+      tex: text,
+      per: PER,
+      pdt: PDT,
+      ctp: CTP,
+      cuid: CUID,
     },
     responseType: 'blob',
   }).then(res => {

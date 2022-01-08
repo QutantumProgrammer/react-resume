@@ -8,3 +8,16 @@
   color: #737373;
   line-height: 1.6;
 }
+
+.demo {
+  margin: 8px 10px;
+}
+
+.demo a {
+  font-size: 18px;
+  color: #038cd9;
+}
+
+.demo a:visited {
+  color: #5f6061;
+}

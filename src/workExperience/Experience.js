@@ -71,7 +71,7 @@ class Experience extends Component {
           <div className="flex-row mt-10 bg-ex-title">
             <div className="text-nowrap">工作时间：</div>
             <div>
-              2017.10 - 2018.5 平安重金所 web前端工程师
+              2018.10 - 2019.5 平安重金所 web前端工程师
             </div>
           </div>
         </div>

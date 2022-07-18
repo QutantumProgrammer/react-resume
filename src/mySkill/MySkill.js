@@ -26,7 +26,7 @@ class MySkill extends Component {
           <a href="https://qutantumprogrammer.github.io/opencv-demo/" target="_blank">opencv</a>&nbsp;&nbsp;&nbsp;
           <a href="https://qutantumprogrammer.github.io/myProject/game.html" target="_blank">Game for pc  </a>&nbsp;&nbsp;&nbsp;
           <a href="https://qutantumspace.gitee.io/field/tour/#/homepage" target="_blank">旅游log</a>&nbsp;&nbsp;&nbsp;
-          <a href="https://qutantumprogrammer.github.io/eva-countdown.html" target="_blank">canvas动画</a>&nbsp;&nbsp;&nbsp;
+          <a href="https://qutantumprogrammer.github.io/eva-countdown" target="_blank">canvas动画</a>&nbsp;&nbsp;&nbsp;
         </div>
       	<FieldTitle title="技能" className="ml-10 mt-10"/>
         <div className="pl-10">
